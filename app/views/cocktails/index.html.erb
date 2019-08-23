@@ -5,15 +5,17 @@
     <%= link_to "Create new cocktail", new_cocktail_path, class: "button-green"%>
   </div>
 </div>
+
+<!-- Card style 2 -->
 <div class = "cards-container">
-  <div class="cards">
-    <% @cocktails.each do |cocktail| %>
-      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg)">
-        <%= link_to cocktail.name, cocktail_path(cocktail) %>
+  <% @cocktails.each do |cocktail| %>
+    <div class="card-cocktail">
+      <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg" />
+      <div class="card-cocktail-infos">
+        <div>
+          <h2><%= link_to cocktail.name, cocktail_path(cocktail) %></h2>
+        </div>
       </div>
-    <% end %>
-  </div>
+    </div>
+  <% end %>
 </div>
-
-
-
