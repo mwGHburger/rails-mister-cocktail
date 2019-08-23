@@ -43,6 +43,12 @@ gem 'simple_form'
 # For secret key
 gem 'dotenv-rails', groups: [:development, :test]
 
+# Cloudinary & Environment
+gem 'cloudinary', '~> 1.9.1'
+
+# A gem to upload files associated to Models.
+gem 'carrierwave', '~> 1.2'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
