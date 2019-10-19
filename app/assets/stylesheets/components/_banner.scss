@@ -1,29 +1,37 @@
 .banner {
   background-size: cover;
   background-position: center;
-  padding: 150px 0;
   position: relative;
   height: 80vh;
-  background: #ADD9E6;
-
+  background: #FAF8D4;
   h1 {
     margin: 0;
-    color: white;
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    color: rgba(70,70,70,1);
+    text-shadow: 1px 3px 3px rgba(0,0,0,0.4);
     font-size: 64px;
-    font-weight: bold;
+    font-weight: 700;
   }
 
   p {
     font-size: 20px;
-    color: white;
+    color: rgba(100,100,100,1);
     opacity: .7;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    padding: 20px 0;
+    font-weight: 300;
   }
 
   img {
-    width: 500px;
+    background-size: contain;
   }
 }
 
+.hero-content {
+  height: 80vh;
+  text-align: center;
+  position: absolute;
+  left: 80px;
+  top: 250px;
+  text-align: left;
+}
 
