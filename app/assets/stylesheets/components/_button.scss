@@ -1,9 +1,11 @@
 .button-cta {
   background: rgb(66,206,206);
-  padding: 8px 16px;
-  border-radius: 5px;
+  padding: 8px 24px;
+  border-radius: 25px;
   color: rgb(255,255,255);
   border: 0px;
+  width: 160px;
+  font-size: 16px;
 
   &:hover {
     text-decoration: none;

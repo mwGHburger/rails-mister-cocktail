@@ -4,23 +4,8 @@
   position: relative;
   height: 80vh;
   background: #FAF8D4;
-  h1 {
-    margin: 0;
-    color: rgba(70,70,70,1);
-    text-shadow: 1px 3px 3px rgba(0,0,0,0.4);
-    font-size: 64px;
-    font-weight: 700;
-  }
-
-  p {
-    font-size: 20px;
-    color: rgba(100,100,100,1);
-    opacity: .7;
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-    padding: 20px 0;
-    font-weight: 300;
-  }
-
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url("https://images.pexels.com/photos/1283219/pexels-photo-1283219.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
   img {
     background-size: contain;
   }
@@ -29,9 +14,27 @@
 .hero-content {
   height: 80vh;
   text-align: center;
-  position: absolute;
-  left: 80px;
-  top: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: left;
+  background: rgba(50,50,50,1);
+  padding: 0 36px;
+  h1 {
+    margin: 0;
+    color: rgba(250,250,250,1);
+    text-shadow: 1px 3px 3px rgba(0,0,0,0.4);
+    font-size: 64px;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 20px;
+    color: rgba(230,230,230,1);
+    opacity: .7;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    padding: 20px 0;
+    font-weight: 300;
+  }
 }
 
